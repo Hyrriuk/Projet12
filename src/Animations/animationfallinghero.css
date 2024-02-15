@@ -1,9 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+:root {
+  --light-gray-background: #f3f4f6;
+  --darkerlight-gray-background: #e2e2e2;
+  --medium-gray-background: #797a7b;
+  --darker-gray-background: #282828;
+  --openclassrooms-background: #7451eb;
+  --tsm: 13px;
+  --tsm1: 14px;
+  --tsm2: 15px;
+  --tbase: 16px;
+  --tlarge: 18px;
+  --tlarge2: 22px;
+  --txlarge: 25px;
+  --txxlarge: 32px;
+  --tgiant: clamp(30px, 10vw, 60px);
+}
+
 .animation {
   display: flex;
   flex-wrap: wrap;
   justify-content: left;
   font-size: clamp(2rem, 5vw, 3.75rem);
-  font-weight: 400;
+  font-weight: 600;
+}
+@media (max-width: 768px) {
+  .animation {
+    justify-content: center;
+  }
 }
 .animation__word {
   display: inline-block;

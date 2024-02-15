@@ -1,4 +1,4 @@
-@import '../../Pages/Home/variables.css';
+@import '../../Pages/Home/variables.scss';
 
 .hero__section__aside {
     display: flex;
@@ -19,7 +19,7 @@
 .hero {
     // background-color: blue;
     margin: 0 auto;
-    flex: 0.7; // Ici, on attribue 70% de l'espace disponible à l'élément .hero
+    flex: 0.8; // Ici, on attribue 70% de l'espace disponible à l'élément .hero
     flex-direction: column;
     align-items: left;
 

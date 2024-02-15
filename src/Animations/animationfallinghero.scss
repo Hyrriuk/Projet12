@@ -1,9 +1,14 @@
+@import '..//Pages/Home/variables.scss';
+
 .animation {
     display: flex;
     flex-wrap: wrap;
     justify-content: left;
     font-size: clamp(2rem, 5vw, 3.75rem);
-    font-weight: 400;
+    font-weight: $font-semibold;
+    @include media('medium') {
+        justify-content: center;
+    }
 
     &__word {
         display: inline-block;

@@ -8,7 +8,7 @@ const Footer = () => {
             <a style={{textDecoration: 'none'}} href="mailto:eddie-tayeb@hotmail.fr" className="footer-button">
                 Contactez moi
             </a>
-            <p className="footer-subtitle">Designed and Developped by Eddie-Tayeb Ghalem</p>
+            <p className="footer-subtitle">Developped by Eddie-Tayeb Ghalem</p>
         </footer>
     );
 };
