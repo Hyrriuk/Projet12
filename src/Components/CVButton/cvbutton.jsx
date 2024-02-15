@@ -2,7 +2,7 @@ import React from 'react';
 import {FaAngleRight} from 'react-icons/fa';
 import {motion} from 'framer-motion';
 import './cvbutton.css';
-import CV from '../../public/assets/cv/cv_eddie_ghalem.pdf';
+import CV from '../../../public/cv_eddie_ghalem.pdf';
 
 const CVButton = () => {
     return (

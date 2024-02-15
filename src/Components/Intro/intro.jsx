@@ -3,7 +3,7 @@ import AnimationFallingHero from '../../Animations/animationfallinghero.jsx';
 import {FiChevronDown} from 'react-icons/fi';
 import CVButton from '../CVButton/cvbutton.jsx';
 import './intro.css';
-import photo from '../../public/assets/Images/kiwiultime.jpeg';
+import photo from '../../../public/kiwiultime.jpeg';
 
 const SectionHero = () => {
     return (
