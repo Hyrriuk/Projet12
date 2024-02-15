@@ -1,0 +1,16 @@
+.mes-techno {
+  margin: 2.5rem auto;
+  max-width: 1240px;
+}
+.mes-techno__title {
+  font-family: "Inter", sans-serif;
+  font-weight: bold;
+  font-size: clamp(1.875rem, 2.5vw, 3.125rem);
+  text-align: center;
+  margin: 7rem 0 4rem 0;
+}
+.mes-techno__content {
+  display: flex;
+  flex-direction: row;
+  gap: 2.5rem;
+}/*# sourceMappingURL=technologiesection.css.map */

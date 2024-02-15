@@ -1,0 +1,86 @@
+.techno-components {
+    flex: 1;
+    width: 100%;
+    padding: 2rem;
+    background-color: var(--light-gray-background);
+    border-radius: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: hidden;
+    gap: 1rem;
+    transition: background-color 0.3s;
+    min-height: 12rem;
+    @include media('small') {
+        padding: 1.5rem;
+    }
+
+    &:hover {
+        background-color: #e2e8f0;
+    }
+
+    &__content {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        z-index: 10;
+        @include media('medium') {
+            gap: 0.5rem;
+        }
+    }
+
+    &__title {
+        color: var(--darker-gray-background);
+        font-weight: 400;
+        font-size: 1.5rem;
+        @include media('medium') {
+            font-size: 1.5rem;
+        }
+    }
+
+    &__paragraph {
+        color: var(--darker-gray-background);
+        font-size: 1.3rem;
+        line-height: 1.6rem;
+        @include media('medium') {
+            font-size: 1.125rem;
+        }
+
+        @include media('small') {
+            font-size: 1rem;
+        }
+    }
+
+    &__icons {
+        display: flex;
+        justify-content: start;
+        align-items: flex-end;
+        z-index: 10;
+        gap: 0;
+        @include media('large') {
+        }
+    }
+}
+
+.icon-techno-components {
+    width: clamp(1.5rem, 6vw, 4rem);
+    height: clamp(1.5rem, 6vw, 4rem);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 1rem;
+    cursor: pointer;
+    transition: all 0.3s;
+    border-radius: 5rem;
+    flex-wrap: wrap;
+    @include media('medium') {
+        width: 3.5rem;
+        height: 3.5rem;
+    }
+
+    &__icon {
+        width: clamp(1rem, 3vw, 2rem);
+        height: clamp(1rem, 3vw, 2rem);
+        transition: colors 0.3s;
+    }
+}

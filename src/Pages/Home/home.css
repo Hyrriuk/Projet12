@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+:root {
+  --light-gray-background: #f3f4f6;
+  --darkerlight-gray-background: #e2e2e2;
+  --medium-gray-background: #797a7b;
+  --darker-gray-background: #282828;
+  --openclassrooms-background: #7451eb;
+  --tsm: 13px;
+  --tsm1: 14px;
+  --tsm2: 15px;
+  --tbase: 16px;
+  --tlarge: 18px;
+  --tlarge2: 22px;
+  --txlarge: 25px;
+  --txxlarge: 32px;
+  --tgiant: clamp(30px, 10vw, 60px);
+}
+
+body {
+  background-color: white !important;
+  padding: 0px 20px;
+  margin-top: 40px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+h1 {
+  font-size: var(--tgiant);
+}/*# sourceMappingURL=home.css.map */

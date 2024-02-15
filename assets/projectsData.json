@@ -1,0 +1,23 @@
+[
+    {
+        "title": "Kasa App – Site d'Agence Immobilière",
+        "description": "En utilisant la puissance de React et la flexibilité du SCSS, j'ai créé un site web innovant pour une agence immobilière appelée Kasa App lors de mon cursus sur Openclassrooms.",
+        "tags": ["React", "SCSS"],
+        "imageSrc": "./kiwiultime.jpeg",
+        "siteLink": "https://lien-vers-kasa-app"
+    },
+    {
+        "title": "Oh My Food - Restaurant à la Carte",
+        "description": "Mon rôle en tant que développeur était de structurer le site avec HTML, de créer des styles visuellement attrayants avec SASS et d'implémenter des animations fluides pour améliorer l'expérience utilisateur.",
+        "tags": ["HTML", "CSS"],
+        "imageSrc": "./kiwiultime.jpeg",
+        "siteLink": "https://hyrriuk.github.io/Projet4OC/"
+    },
+    {
+        "title": "Argent Bank - Banque en ligne",
+        "description": "Blablabla",
+        "tags": ["HTML", "CSS"],
+        "imageSrc": "./kiwiultime.jpeg",
+        "siteLink": "https://hyrriuk.github.io/Projet4OC/"
+    }
+]

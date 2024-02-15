@@ -1,0 +1,41 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  max-width: 1240px;
+  gap: 2rem;
+}
+
+.footer-title {
+  font-family: "Inter", sans-serif;
+  font-weight: bold;
+  font-size: clamp(1.5rem, 2.5vw, 2.9rem);
+  text-align: center;
+}
+
+.footer-content {
+  position: relative;
+}
+
+.footer-button {
+  font-size: 1.5rem;
+  border: none;
+  cursor: pointer;
+  outline: inherit;
+  padding: 1rem 2rem;
+  border-radius: 1rem;
+  background-color: black;
+  color: white;
+  transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+}
+
+.footer-button:hover {
+  transform: scale(1.05); /* Changement de l'effet au survol pour le zoom */
+  font-weight: 800;
+}
+
+.footer-subtitle {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+}/*# sourceMappingURL=footer.css.map */
