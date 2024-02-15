@@ -7,7 +7,7 @@ import {motion} from 'framer-motion';
 const Projects = () => {
     const projectsData = [
         {
-            image: '../../assets/Images/kasa_app.png',
+            image: '../../public/assets/Images/kasa_app.png',
             projectName: "Kasa App - Site d'Agence Immobilière",
             projectLink: 'https://projet8-gl7rzyg09-hyrriuks-projects.vercel.app',
             projectDescription:
@@ -21,7 +21,7 @@ const Projects = () => {
             frontendmentor: false,
         },
         {
-            image: '../../assets/Images/ohmyfood.png',
+            image: '../../public/assets/Images/ohmyfood.png',
             projectName: 'Oh My Food - Restaurant à la Carte',
             projectLink: 'https://hyrriuk.github.io/Projet4OC/',
             projectDescription:
