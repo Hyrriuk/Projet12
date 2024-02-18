@@ -3,7 +3,7 @@ import './home.css';
 import Intro from '../../Components/Intro/intro';
 import Projects from '../../Components/Projects/projects';
 import Technologiesection from '../../Components/Technologies/Technologiesection/technologiesection';
-import Apropos from '../../Components/Apropos/Apropos.jsx';
+import Apropos from '../../Components/APropos/APropos.jsx';
 
 const Home = () => {
     return (
