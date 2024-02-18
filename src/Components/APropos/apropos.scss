@@ -1,0 +1,92 @@
+@import '../../Variables/variables.scss';
+
+.about {
+    max-width: 1240px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    h3 {
+        @include media('medium') {
+            margin-top: 4rem;
+        }
+    }
+    &-me {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+        padding: 1rem 4rem 1rem 0rem;
+        h4 {
+            align-self: flex-start;
+            font-size: 1.5rem;
+            @include media('large') {
+                align-self: center;
+            }
+        }
+        @include media('large') {
+            margin: auto;
+            width: 100%;
+            padding: 1rem 5rem;
+        }
+        @include media('medium') {
+            padding: 1rem 0rem;
+        }
+        p {
+            margin-bottom: 15px;
+            line-height: 1.5;
+            text-align: left;
+            @include media('large') {
+                text-align: center;
+            }
+        }
+    }
+    &-aside {
+        display: flex;
+        flex-direction: column;
+        flex: 2;
+        gap: 2rem;
+    }
+    &-box {
+        display: flex;
+        flex-direction: row;
+        gap: 2rem;
+        @include media('large') {
+            flex-direction: column;
+        }
+    }
+    &-title {
+        font-family: 'Inter', sans-serif;
+        font-weight: bold;
+        font-size: clamp(1.875rem, 2.5vw, 3.125rem);
+        text-align: center;
+        margin: 7rem 0 4rem 0;
+    }
+    &-image {
+        position: relative;
+        display: flex;
+        flex: 1;
+        border-radius: 1rem;
+        overflow: hidden;
+        max-height: 500px;
+        margin-top: 1rem;
+        min-height: 400px;
+        img {
+            object-fit: cover;
+        }
+        @include media('large') {
+            margin: auto;
+            min-height: 400px;
+            min-width: 400px;
+        }
+        @include media('medium') {
+            min-width: 300px;
+            min-height: 300px;
+            margin: auto;
+        }
+        @include media('small') {
+            min-width: 150px;
+            min-height: 150px;
+        }
+    }
+}
