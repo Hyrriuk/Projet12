@@ -1,4 +1,4 @@
-@import '../../Pages/Home/variables.scss';
+@import '../../Variables/variables.scss';
 
 .projects {
     max-width: 1240px;
@@ -15,7 +15,7 @@
             color: black;
             text-align: center;
             font-size: clamp(1.875rem, 2.5vw, 3.125rem);
-            font-weight: $font-bold;
+            font-weight: $font-semibold;
         }
         margin-bottom: 4rem;
     }

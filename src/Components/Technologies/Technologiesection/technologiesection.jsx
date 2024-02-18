@@ -3,7 +3,7 @@ import {FaReact} from 'react-icons/fa';
 import {SiJavascript, SiAdobephotoshop, SiFigma, SiRedux} from 'react-icons/si';
 import {TbBrandVite} from 'react-icons/tb';
 import TechnologiesBox from '../Technologiesbox/technologiesbox.jsx';
-import './technologiesection.css';
+import './technologiesection.scss';
 import {motion} from 'framer-motion';
 
 const TechnologieSection = () => {

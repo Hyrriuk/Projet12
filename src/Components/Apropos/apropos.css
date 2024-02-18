@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+:root {
+  --light-gray-background: #f3f4f6;
+  --darkerlight-gray-background: #e2e2e2;
+  --medium-gray-background: #797a7b;
+  --darker-gray-background: #282828;
+  --openclassrooms-background: #7451eb;
+  --tsm: 13px;
+  --tsm1: 14px;
+  --tsm2: 15px;
+  --tbase: 16px;
+  --tlarge: 18px;
+  --tlarge2: 22px;
+  --txlarge: 25px;
+  --txxlarge: 32px;
+  --tgiant: clamp(30px, 10vw, 60px);
+}
+
+.about {
+  max-width: 1240px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+}
+@media (max-width: 768px) {
+  .about h3 {
+    margin-top: 4rem;
+  }
+}
+.about-me {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem 4rem 1rem 0rem;
+}
+.about-me h4 {
+  align-self: flex-start;
+  font-size: 1.5rem;
+}
+@media (max-width: 992px) {
+  .about-me h4 {
+    align-self: center;
+  }
+}
+@media (max-width: 992px) {
+  .about-me {
+    margin: auto;
+    width: 100%;
+    padding: 1rem 5rem;
+  }
+}
+@media (max-width: 768px) {
+  .about-me {
+    padding: 1rem 0rem;
+  }
+}
+.about-me p {
+  margin-bottom: 15px;
+  line-height: 1.5;
+  text-align: left;
+}
+@media (max-width: 992px) {
+  .about-me p {
+    text-align: center;
+  }
+}
+.about-aside {
+  display: flex;
+  flex-direction: column;
+  flex: 2;
+  gap: 2rem;
+}
+.about-box {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+@media (max-width: 992px) {
+  .about-box {
+    flex-direction: column;
+  }
+}
+.about-title {
+  font-family: "Inter", sans-serif;
+  font-weight: bold;
+  font-size: clamp(1.875rem, 2.5vw, 3.125rem);
+  text-align: center;
+  margin: 7rem 0 4rem 0;
+}
+.about-image {
+  position: relative;
+  display: flex;
+  flex: 1;
+  border-radius: 1rem;
+  overflow: hidden;
+  max-height: 500px;
+  margin-top: 1rem;
+  min-height: 400px;
+}
+.about-image img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+@media (max-width: 992px) {
+  .about-image {
+    margin: auto;
+    min-height: 400px;
+    min-width: 400px;
+  }
+}
+@media (max-width: 768px) {
+  .about-image {
+    min-width: 300px;
+    min-height: 300px;
+    margin: auto;
+  }
+}
+@media (max-width: 576px) {
+  .about-image {
+    min-width: 150px;
+    min-height: 150px;
+  }
+}/*# sourceMappingURL=apropos.css.map */

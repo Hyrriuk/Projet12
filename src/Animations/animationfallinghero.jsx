@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from 'react';
-import './animationfallinghero.css';
+import './animationfallinghero.scss';
 
 const AnimationFallingHero = ({text, delay = 0.15, startDelay = 0, nameclass}) => {
     const [animationClass, setAnimationClass] = useState('');
@@ -8,7 +8,6 @@ const AnimationFallingHero = ({text, delay = 0.15, startDelay = 0, nameclass}) =
         setAnimationClass('animate');
     }, []);
 
-    // Ajouter une vérification pour s'assurer que 'text' est défini
     const words = text ? text.split(' ') : [];
 
     return (

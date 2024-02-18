@@ -1,11 +1,11 @@
-@import '..//Pages/Home/variables.scss';
+@import '../Variables/variables.scss';
 
 .animation {
     display: flex;
     flex-wrap: wrap;
     justify-content: left;
     font-size: clamp(2rem, 5vw, 3.75rem);
-    font-weight: $font-semibold;
+    font-weight: $font-bold;
     @include media('medium') {
         justify-content: center;
     }

@@ -1,6 +1,6 @@
 import React from 'react';
 import {motion} from 'framer-motion';
-import './technologiesbox.css';
+import './technologiesbox.scss';
 
 const TechnologiesBox = ({title, paragraph, icons = []}) => {
     return (

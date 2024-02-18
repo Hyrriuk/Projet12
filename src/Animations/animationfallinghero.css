@@ -22,7 +22,7 @@
   flex-wrap: wrap;
   justify-content: left;
   font-size: clamp(2rem, 5vw, 3.75rem);
-  font-weight: 600;
+  font-weight: 1000;
 }
 @media (max-width: 768px) {
   .animation {

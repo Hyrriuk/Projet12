@@ -3,7 +3,7 @@ import AnimationFallingHero from '../../Animations/animationfallinghero.jsx';
 import {FiChevronDown} from 'react-icons/fi';
 import CVButton from '../CVButton/cvbutton.jsx';
 import './intro.css';
-import photo from '../../../public/kiwiultime.jpeg';
+import photo from '../../../public/moikisouri.jpg';
 
 const SectionHero = () => {
     return (
@@ -13,12 +13,15 @@ const SectionHero = () => {
                     <AnimationFallingHero text="Salut, moi c'est" />
                     <AnimationFallingHero startDelay={0.5} nameclass="hero_title-color" text="Eddie-Tayeb Ghalem" />
                     <AnimationFallingHero startDelay={0.7} text="Developpeur Front-end" />
-                    <p className="hero__text">Blablabla, test, blablabla</p>
+                    <p className="hero__text">
+                        Aventurier du web en quête de connaissances et de compétences, en route vers l'apprentissage des
+                        technologies de demain.
+                    </p>
                     <CVButton />
                 </div>
                 <aside className="aside">
                     <div className="blob">
-                        <img src={photo} alt="Photo de Eddie blablabla" className="image" />
+                        <img src={photo} alt="Photo de Eddie-Tayeb Ghalem" className="image" />
                     </div>
                 </aside>
             </section>

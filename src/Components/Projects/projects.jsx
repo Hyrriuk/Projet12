@@ -1,7 +1,7 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
 import {FiGithub, FiExternalLink} from 'react-icons/fi';
-import './projects.css';
+import './projects.scss';
 import {motion} from 'framer-motion';
 
 const Projects = () => {
@@ -30,6 +30,20 @@ const Projects = () => {
             projectExternalLinks: {
                 github: 'https://github.com/Hyrriuk/Projet4OC',
                 externalLink: 'https://hyrriuk.github.io/Projet4OC/',
+            },
+            isNew: false,
+            frontendmentor: false,
+        },
+        {
+            image: './724events.jpg',
+            projectName: '724events - Agence évènementielle',
+            projectLink: 'https://projet10-k9vym3syn-hyrriuks-projects.vercel.app',
+            projectDescription:
+                "En tant que développeur, ma mission principale consistait à détecter et résoudre une variété de bugs et d'erreurs, tout en exécutant des tests unitaires rigoureux pour garantir la stabilité et l'efficacité du système.",
+            projectTech: ['Javascript'],
+            projectExternalLinks: {
+                github: 'https://github.com/Hyrriuk/Projet10OC',
+                externalLink: 'https://projet10-k9vym3syn-hyrriuks-projects.vercel.app',
             },
             isNew: false,
             frontendmentor: false,

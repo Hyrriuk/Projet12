@@ -3,6 +3,7 @@ import './home.css';
 import Intro from '../../Components/Intro/intro';
 import Projects from '../../Components/Projects/projects';
 import Technologiesection from '../../Components/Technologies/Technologiesection/technologiesection';
+import Apropos from '../../Components/Apropos/Apropos.jsx';
 
 const Home = () => {
     return (
@@ -10,6 +11,7 @@ const Home = () => {
             <Intro />
             <Projects />
             <Technologiesection />
+            <Apropos />
         </div>
     );
 };
