@@ -1,6 +1,5 @@
 import React from 'react';
 import AnimationFallingHero from '../../Animations/animationfallinghero.jsx';
-import {FiChevronDown} from 'react-icons/fi';
 import CVButton from '../CVButton/cvbutton.jsx';
 import './intro.css';
 import photo from '../../../public/moikisouri.jpg';

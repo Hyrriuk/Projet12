@@ -18,7 +18,6 @@ const Projects = () => {
                 externalLink: 'https://projet8-gl7rzyg09-hyrriuks-projects.vercel.app',
             },
             isNew: false,
-            frontendmentor: false,
         },
         {
             image: './ohmyfood.png',
@@ -32,7 +31,6 @@ const Projects = () => {
                 externalLink: 'https://hyrriuk.github.io/Projet4OC/',
             },
             isNew: false,
-            frontendmentor: false,
         },
         {
             image: './724events.jpg',
@@ -46,7 +44,6 @@ const Projects = () => {
                 externalLink: 'https://projet10-k9vym3syn-hyrriuks-projects.vercel.app',
             },
             isNew: false,
-            frontendmentor: false,
         },
     ];
 
@@ -74,7 +71,6 @@ const Projects = () => {
                         projectName,
                         projectTech,
                         isNew,
-                        frontendmentor,
                     }) => {
                         return (
                             <motion.div
@@ -117,12 +113,9 @@ const Projects = () => {
                                         </ul>
                                     </div>
                                     <div className="img-container">
-                                        {isNew || frontendmentor ? (
+                                        {isNew ? (
                                             <div className="img-container-box">
                                                 {isNew ? <span className="img-container-new">Nouveau</span> : null}
-                                                {frontendmentor ? (
-                                                    <span className="img-container-mentor">Front End Mentor</span>
-                                                ) : null}
                                             </div>
                                         ) : null}
                                         <a
