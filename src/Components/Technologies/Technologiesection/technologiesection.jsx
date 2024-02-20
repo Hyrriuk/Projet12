@@ -34,7 +34,7 @@ const TechnologieSection = () => {
                     <div className="mes-techno__content">
                         <TechnologiesBox
                             title="Front-end"
-                            paragraph="Technologies que j'ai appris au cours de ma formation et en autodidacte."
+                            paragraph="Technologies que j'ai apprises au cours de ma formation et en autodidacte."
                             icons={[
                                 {component: <FaReact />, color: '#61DBFB'},
                                 {component: <SiJavascript />, color: '#F0DB4F'},
@@ -44,7 +44,7 @@ const TechnologieSection = () => {
                         />
                         <TechnologiesBox
                             title="Design"
-                            paragraph="Toutes les applications que j'ai utilisées lors de mes études et stages."
+                            paragraph="Toutes les applications que j'ai utilisées lors de mes études."
                             icons={[
                                 {component: <SiAdobephotoshop />, color: '#4FCCFE'},
                                 {component: <SiFigma />, color: '#000000'},

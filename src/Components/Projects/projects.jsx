@@ -9,13 +9,13 @@ const Projects = () => {
         {
             image: './kasa_app.png',
             projectName: "Kasa App - Site d'Agence Immobilière",
-            projectLink: 'https://projet8-gl7rzyg09-hyrriuks-projects.vercel.app',
+            projectLink: 'https://projet8-oc.vercel.app',
             projectDescription:
                 "En utilisant la puissance de React et la flexibilité du SCSS, j'ai créé un site web innovant pour une agence immobilière appelée Kasa App lors de mon cursus sur Openclassrooms.",
             projectTech: ['React', 'SCSS'],
             projectExternalLinks: {
                 github: 'https://github.com/Hyrriuk/Projet8OC/tree/main',
-                externalLink: 'https://projet8-gl7rzyg09-hyrriuks-projects.vercel.app',
+                externalLink: 'https://projet8-oc.vercel.app',
             },
             isNew: false,
         },
@@ -35,13 +35,13 @@ const Projects = () => {
         {
             image: './724events.jpg',
             projectName: '724events - Agence évènementielle',
-            projectLink: 'https://projet10-k9vym3syn-hyrriuks-projects.vercel.app',
+            projectLink: 'https://projet10-oc.vercel.app',
             projectDescription:
                 "En tant que développeur, ma mission principale consistait à détecter et résoudre une variété de bugs et d'erreurs, tout en exécutant des tests unitaires rigoureux pour garantir la stabilité et l'efficacité du système.",
             projectTech: ['Javascript'],
             projectExternalLinks: {
                 github: 'https://github.com/Hyrriuk/Projet10OC',
-                externalLink: 'https://projet10-k9vym3syn-hyrriuks-projects.vercel.app',
+                externalLink: 'https://projet10-oc.vercel.app',
             },
             isNew: false,
         },
