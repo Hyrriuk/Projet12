@@ -14,6 +14,7 @@ const TechnologiesBox = ({title, paragraph, icons = []}) => {
                     <div key={index} className="icon-techno-components" style={{color: icon.color}}>
                         {React.cloneElement(icon.component, {
                             className: 'icon-techno-components__icon',
+                            title: icon.title,
                         })}
                     </div>
                 ))}

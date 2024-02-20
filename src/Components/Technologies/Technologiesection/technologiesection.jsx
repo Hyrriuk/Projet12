@@ -36,18 +36,18 @@ const TechnologieSection = () => {
                             title="Front-end"
                             paragraph="Technologies que j'ai apprises au cours de ma formation et en autodidacte."
                             icons={[
-                                {component: <FaReact />, color: '#61DBFB'},
-                                {component: <SiJavascript />, color: '#F0DB4F'},
-                                {component: <TbBrandVite />, color: '#8a3ffc'},
-                                {component: <SiRedux />, color: '#764ABC'},
+                                {component: <FaReact />, color: '#61DBFB', title: 'React'},
+                                {component: <SiJavascript />, color: '#F0DB4F', title: 'JavaScript'},
+                                {component: <TbBrandVite />, color: '#8a3ffc', title: 'ViteJS'},
+                                {component: <SiRedux />, color: '#764ABC', title: 'Redux'},
                             ]}
                         />
                         <TechnologiesBox
                             title="Design"
                             paragraph="Toutes les applications que j'ai utilisées lors de mes études."
                             icons={[
-                                {component: <SiAdobephotoshop />, color: '#4FCCFE'},
-                                {component: <SiFigma />, color: '#000000'},
+                                {component: <SiAdobephotoshop />, color: '#4FCCFE', title: 'Photoshop'},
+                                {component: <SiFigma />, color: '#000000', title: 'Figma'},
                             ]}
                         />
                     </div>
